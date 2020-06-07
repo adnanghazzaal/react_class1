@@ -8,6 +8,8 @@ function App({name , age}) {
     Hello from my name is <strong>{name}</strong>and my age is {age}
     <br></br>
    <Hello firstname={name}></Hello>
+   <br></br>
+    Stay home and Stay safe .
   </div>
 }
 

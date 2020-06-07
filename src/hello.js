@@ -5,7 +5,7 @@ import './Hello.css'
 
 function Hello({firstname}) { 
   return <div class="myname">
-    This is from hello and my name is {firstname}
+    This is from hello.js and my name is {firstname}
   </div>
 }
 
