@@ -2,6 +2,8 @@ import React from 'react';
 import Food from './food.js'
 import './App.css';
 import Hello from "./hello.js"
+import Tel from './tel.js'
+
 
 function App({name , age}) { 
   return (<div>
@@ -15,6 +17,8 @@ function App({name , age}) {
     Reusing component again
     <br/>
     <Food lunch = "Chicken karahi" appitizer="Fish Cracker" sweet="Gajar Halwa"></Food>
+    <br/>
+    <Tel number="12334556"/>
   </div>)
 }
 
